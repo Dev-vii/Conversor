@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -10,16 +10,21 @@
 
 <body>
 
-    <label for="frutas">Escolha um valor:</label>
-    <input list="Value-list" id="frutas" name="frutas">
+    <h1>Escolha um valor:</h1>
+    <input type="number" name="valorbase" id="valorbase">
+
+    <input list="Value-list" id="valores" name="valores">
 
     <datalist id="Value-list">
         <option value="Real">
         <option value="Dólar">
         <option value="Euro">
-        <option value="Yeni">
+        <option value="Ieni">
         <option value="Peso">
     </datalist>
+
+    <input type="button" value="Calcular" onclick="Calcular()">
+    <p id="res">Aguardando resposta...</p>
 
     <script src="script.js"></script>
 </body>
