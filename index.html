@@ -9,22 +9,29 @@
 </head>
 
 <body>
+    <section>
 
-    <h1>Escolha um valor:</h1>
-    <input type="number" name="valorbase" id="valorbase">
+        <h1>Escolha um valor:</h1>
 
-    <input list="Value-list" id="valores" name="valores">
+        <div class="content">
+            <p>Reais:</p>
+            <input type="number" name="valorbase" id="valorbase">
+            <p>em</p>
+            <input list="Value-list" id="valores" name="valores">
 
-    <datalist id="Value-list">
-        <option value="Real">
-        <option value="Dólar">
-        <option value="Euro">
-        <option value="Ieni">
-        <option value="Peso">
-    </datalist>
+            <datalist id="Value-list">
+                <option value="Real">
+                <option value="Dólar">
+                <option value="Euro">
+                <option value="Ieni">
+                <option value="Peso">
+            </datalist>
 
-    <input type="button" value="Calcular" onclick="Calcular()">
-    <p id="res">Aguardando resposta...</p>
+            <input type="button" value="Calcular" onclick="Calcular()" style="cursor: pointer;">
+        </div>
+
+        <p id="res">Aguardando resposta...</p>
+    </section>
 
     <script src="script.js"></script>
 </body>
