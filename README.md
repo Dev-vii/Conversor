@@ -3,12 +3,11 @@ Este é um projeto HTML5, CSS3 e JavaScript sobre um conversor simples de moedas
 
 ## 🚀 Como usar
 
-1. Clone o repositório:
-https://github.com/Dev-vii/Calculadora
+1. Clone o repositório: https://github.com/Dev-vii/Conversor
 
-2. Abra o `index.html` no navegador.
+3. Abra o `index.html` no navegador.
 
-3. Selecione o primeiro valor e, logo em seguida o segundo, e clique no botão para converter o valor.
+4. Selecione o primeiro valor e, logo em seguida o segundo, e clique no botão para converter o valor.
 
 ## 🛠️ Tecnologias
 
